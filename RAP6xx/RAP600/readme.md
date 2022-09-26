@@ -37,7 +37,7 @@ As a result of this workshop the *Manage Purchase Requisitions App* will show a 
 
 If one or both checks fail, the application will return an error as shown in the following screen shot:
 
-![Manage purchase requisitions App with error messages triggered via developer extensions](RAP6xx/RAP600/ex0/images/600_001_new_abap_cloud_project.jpg)
+![Manage purchase requisitions App with error messages triggered via developer extensions](ex0/images/600_001_new_abap_cloud_project.jpg)
 
 ## Exercises
 [^Top of page](#)
