@@ -6,9 +6,10 @@ This repository contains the material for the SAP TechEd 2022 session called DT 
 
 ## Overview
 
-This session introduces attendees to developer extensibility in S/4 Cloud ABAP Environment. Here, you find the Hands-On exercises in RAP6XX folder.
-RAP600: Extend a existing application with released BaDls. 
-RAP610: Create a application using ABAP RESTful Application Model(RAP) and extend the functionality using released RAP FAcades.
+This session introduces attendees to developer extensibility in S/4 Cloud ABAP Environment. Here, you find the Hands-On exercises in RAP6XX folder.<br/>
+
+- RAP600: Extend a existing application with released BaDls. <br/>
+- RAP610: Create a application using ABAP RESTful Application Model(RAP) and extend the functionality using released RAP FAcades.
 
 # RAP6XX: Extensibility
 Find diverse hands-on exercises related to the extensibility of standard and custom applications on SAP S/4HANA, in the cloud as well as on-premise.
