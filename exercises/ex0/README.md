@@ -1,2 +1,2 @@
 
-Continue to - [Exercise 1 - Access S/4 HANA cloud ABAP Environment](RAP6xx/RAP600/ex0/README.md)
+Continue to - [Exercise 1 - Access S/4 HANA cloud ABAP Environment](RAP600/ex0/README.md)
