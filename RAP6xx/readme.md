@@ -12,7 +12,4 @@ This hands-on workshop will guide you to build developer extensions on SAP S/4HA
 
 Find hands-on exercises in the folder [RAP610](rap610).
 
-## RAP620: Side-by-side extensibility with SAP BTP ABAP Environment 
-This hands-on workshop will guide you to build a loosely coupled extension on SAP BTP ABAP Environment (aka _Steampunk_) consuming OData services in a SAP backend system using a service consumption model built with the ABAP RESTful Application Programming Model (RAP).
 
-Find hands-on exercises in the folder [RAP620](rap620).
