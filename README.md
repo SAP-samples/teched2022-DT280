@@ -16,12 +16,12 @@ Find diverse hands-on exercises related to the extensibility of standard and cus
 ## RAP600 - Developer extensibility with SAP S/4HANA Cloud ABAP Environment - BAdIs
 This hands-on workshop will guide you to build developer extensions on SAP S/4HANA Cloud with SAP S/4HANA Cloud ABAP Environment (aka _Embedded Steampunk_) using released Business Add-Ins (BAdIs).
 
-Find hands-on exercises in the folder [RAP600](rap600).
+Find hands-on exercises in the folder [RAP600](RAP600).
 
 ## RAP610: Developer extensibility with SAP S/4HANA Cloud ABAP Environment - RAP Facades
 This hands-on workshop will guide you to build developer extensions on SAP S/4HANA Cloud with SAP S/4HANA Cloud ABAP Environment (aka _Embedded Steampunk_) using released RAP Facades - i.e. business object interfaces built with the ABAP RESTful Application Programming Model (RAP).
 
-Find hands-on exercises in the folder [RAP610](rap610).
+Find hands-on exercises in the folder [RAP610](RAP610).
 
 ## Requirements
 
