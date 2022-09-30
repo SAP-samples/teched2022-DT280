@@ -67,7 +67,7 @@ You will create your own transactional Fiori elements app with the ABAP RESTful 
 
  The figure below illustrates the high-level architecture components of the ABAP RESTful Application Programming Model (RAP). It shows the main technologies and artefacts needed to build an SAP Fiori app or a Web API with RAP from a design time perspective.  
  
- ![architecture](RAP610/ex0/images/rap_bigpicture.png)
+ ![architecture]([RAP610/ex0/images/rap_bigpicture.png](https://github.com/SAP-samples/teched2022-DT280/blob/cf1ce24d8f519fb72d15b1352bce4bcdf270d017/RAP6xx/RAP610/ex0/images/rap_bigpicture.png))
  
  You can find a more information on the various RAP concepts on the SAP Help Portal.
 
