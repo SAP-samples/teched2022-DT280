@@ -196,6 +196,6 @@ You are through with this exercise.
 
 Congratulations, you are through with the full workshop! :-)
 
-You can go to the [further information](../../further-information) to find more information. 
+You can go to the [further information](../../README.md/further-information) to find more information. 
 
 
