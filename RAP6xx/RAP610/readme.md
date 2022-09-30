@@ -55,7 +55,7 @@ You will create your own transactional Fiori elements app with the ABAP RESTful 
 
  Your application will finally look like this:
 
- ![Custom business application]( images/Introduction2.png )
+ ![Custom business application]( exo/images/Introduction2.png )
 
  In an additional exercise, you can create a new sales order in an ABAP class using released RAP facades and Entity Manipulation Langauge (EML).
 
