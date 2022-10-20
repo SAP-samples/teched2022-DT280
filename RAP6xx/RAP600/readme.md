@@ -47,12 +47,7 @@ In this workshop, the BAdI is implemented in the SAP Fiori app as follows:
 2.	Create a container ( enhancement implementation ) in the enhancement spot
 3.	Create a BADI implementation for the BADI definition.
 
-| Exercises |  
-| ------------- | 
-| [Get started](ex0/README.md) | 
-| [Exercise 1: Choose enhancement spot](ex1/README.md) | 
-| [Exercise 2: BAdI implementation](ex2/README.md) | 
-| [Exercise 3: Test BAdI implementation](ex3/README.md) | 
+
 ## How to obtain support
 [^Top of page](#)
 
