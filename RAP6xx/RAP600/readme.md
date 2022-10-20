@@ -42,6 +42,13 @@ If one or both checks fail, the application will return an error as shown in the
 ## Exercises
 [^Top of page](#)
 
+| Exercises |  
+| ------------- | 
+| [Get started](ex0/README.md) | 
+| [Exercise 1: Choose enhancement spot](ex1/README.md) | 
+| [Exercise 2: BAdI implementation](ex2/README.md) | 
+| [Exercise 3: Test BAdI implementation](ex3/README.md) | 
+
 In this workshop, the BAdI is implemented in the SAP Fiori app as follows:
 1.	Use an existing enhancement spot **MM_PUR_S4_PR**, with an existing BADI definition **MM_PUR_S4_PR_CHECK**
 2.	Create a container ( enhancement implementation ) in the enhancement spot
