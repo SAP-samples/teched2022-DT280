@@ -19,10 +19,9 @@ When a laptop is ordered, a purchase requisition will be automatically created.
 2.	Maintain the information provided below and click **Next >**.  
     - Name: **`Z_PURCHASE_REQ_XXX`**
     - Description: `Package XXX`
-    - Check **`Add to favorite packages`** 
- </br>
-
-    ![](ex1/images/ui1.png)
+    - Check ** `Add to favorite packages` ** 
+ 
+ ![](ex1/images/ui1.png)
  
 3.	Create a new request and click **Finish**.
 
