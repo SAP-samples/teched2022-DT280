@@ -20,6 +20,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     - Name: **`Z_PURCHASE_REQ_XXX`**
     - Description: `Package XXX`
     - Check **`Add to favorite packages`** 
+ </br>
 
     ![](RAP610/ex0/images/ui1.png)
  
