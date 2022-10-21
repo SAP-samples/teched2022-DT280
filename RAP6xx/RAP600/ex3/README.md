@@ -30,4 +30,4 @@ To access the **Manage Purchase Requisitions Professional** App, use the followi
 
    ![](images/600_570_TEST_BADI_IMPLEMENTATION.jpg)
 
-Now, you can continue with the workshop ![RAP610](../../rap610/README.md) that introduces the use of RAP facades.
+Now, you can continue with the workshop ![RAP610](RAP6xx/RAP610/readme.md) that introduces the use of RAP facades.
