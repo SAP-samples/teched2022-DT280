@@ -22,7 +22,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     - Check **`Add to favorite packages`**
  
 
-    ![](RAP610/ex0/images/ui1.jpg)
+    ![](RAP610/ex0/images/ui1.png)
  
 3.	Create a new request and click **Finish**.
 
