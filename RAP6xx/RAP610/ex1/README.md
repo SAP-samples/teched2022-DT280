@@ -21,7 +21,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     - Description: `Package XXX`
     - Check **`Add to favorite packages`**
 
-    ![](../../images/ui1.png)
+    ![](RAP6xx/RAP610/ex0/images/ui1.png)
  
 3.	Create a new request and click **Finish**.
 
