@@ -21,13 +21,13 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     - Description: `Package XXX`
     - Check ** `Add to favorite packages` ** 
  
- ![](ex1/images/ui1.png)
+ ![](images/ui1.png)
  
 3.	Create a new request and click **Finish**.
 
     - Description: _**`Developer Extensibility with RAP Facades (<your_group_ID>)`**_
    
-    ![](/images/ui2.png)
+    ![](images/ui2.png)
   
 </details>
 
@@ -41,23 +41,23 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     
    > **Do not forget to replace the suffix **`XXX`** with your group ID (e.g. your initials).**
  
-    ![](ex1/images/ui3.png)
+    ![](images/ui3.png)
     
    
 2.	Search for _**database table**_, select the entry, and click **Next >**. 
  
-    ![](ex1/images/ui4.png)
+    ![](images/ui4.png)
 
 3.	Maintain the information provided below and click **Next >**.
 
     -	Name: **`ZONLINESHOP_XXX`**
     -	Description: _**`Shop to purchase electronics`**_ 
     
-    ![](ex1/images/ui5.png)
+    ![](images/ui5.png)
 
 4.	Click **Finish**.
  
-   !![](ex1/images/ui6.png)
+   !![](images/ui6.png)
  
 5.	Replace the default source code with following code snippet:
 
@@ -89,22 +89,22 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    
 1.	Right-click your package **`Z_PURCHASE_REQ_XXX`** and select **New > Other ABAP Repository Object** from the context menu.
    
-    ![](ex1/images/ui7.png)
+    ![](images/ui7.png)
  
 2.	Search for _**Data Definition**_, select the entry, and click **Next >**.
  
-    ![](ex1/images/ui8.png)
+    ![](images/ui8.png)
  
 3.	Maintain the information provided below and click **Next >**.
 
    - Name: **`ZI_ONLINE_SHOP_XXX`**
    - Description: **`Data model for online shop`** 
    
-    ![](ex1/images/ui9.png)
+    ![](images/ui9.png)
     
 4. Select your transport request and click **Finish**.
 
-    ![](ex1/images/ui10.png)
+    ![](images/ui10.png)
  
 5.	Replace the default source code with following code snippet:
 
@@ -132,7 +132,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    
 1.	Right-click **Data Definitions** and select **New Data Definition** from the context menu.
   
-    ![](ex1/images/ui11.png)
+    ![](images/ui11.png)
  
 2.	Maintain the information provided below and click **Next >**.
 
@@ -140,11 +140,11 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     -	Description: **_Projection view for online shop_**
     -	Referenced Object: **`ZI_ONLINE_SHOP_XXX`**
     
-   ![](ex1/images/ui12.png)
+   ![](images/ui12.png)
  
 3. Select your transport request and click **Finish**.
    
-   ![](ex1/images/ui13.png)
+   ![](images/ui13.png)
 
 4.	Replace the default source code with following code snippet:
 
@@ -194,17 +194,17 @@ When a laptop is ordered, a purchase requisition will be automatically created.
       
 1.	Right-click your data definition **`ZI_ONLINE_SHOP_XXX`** and select **New Behavior Definition** from the context menu.
  
-   ![](ex1/images/ui14.png)
+   ![](images/ui14.png)
  
 2.	Maintain a description and click **Next >**.
 
      - Description: _**`Behavior for ZI_ONLINE_SHOP_XXX`**_
      
-     ![](ex1/images/ui15.png)
+     ![](images/ui15.png)
 
 3.	Select your transport request and click **Finish**.
  
-    ![](ex1/images/ui16.png)
+    ![](images/ui16.png)
  
 4.	Replace the default source code with following code snippet:
 
@@ -241,15 +241,15 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    
 1.	Right-click your projection view **`ZC_ONLINE_SHOP_XXX`** and select **New Behavior Definition** from the context menu.
  
-    ![](ex1/images/ui17.png)
+    ![](images/ui17.png)
  
 2.	Click **Next >**.
 
-   ![](ex1/images/ui18.png)
+   ![](images/ui18.png)
  
 3.	Select your transport request and click **Finish**.
   
-     ![](ex1/images/ui19.png)
+     ![](images/ui19.png)
  
 4.	Replace the default source code with following with code snippet:
 
@@ -277,17 +277,17 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    
 1. Right click on projection view **`ZC_ONLINE_SHOP_XXX`** and select create **New Service Definition** from the context menu.
 
-    ![](ex1/images/sd.png)
+    ![](images/sd.png)
 
 2. Maintain the information provided below and click **Next >**.
     - Name: **`ZSD_SHOP_XXX`**
     - Description: _**Service definition for online shop_**
 
-    ![](ex1/images/sd2.png)
+    ![](images/sd2.png)
 
 3. Select your transport request and press **Finish**. 
 
-    ![](ex1/images/sd3.png)
+    ![](images/sd3.png)
 
 4. Save and activate the object.
 
@@ -301,24 +301,24 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    
 1. Right-click on your service definition **`ZC_SHOP_XXX`** and select **New Service Binding** from the context menu.
 
-    ![](ex1/images/sb1.png)
+    ![](images/sb1.png)
 
 2. Maintain the information provided below and click **Next**. 
     - Name: **`ZSB_SHOP_XXX`**
     - Description: _**`OData service V2 UI`**_
     - Binding Type: **`OData version V2 UI`**
 
-    ![]ex1/images/sb2.png)
+    ![](images/sb2.png)
 
 3. Select your transport request and press **Finish**.
 
 4. Activate and publish your service binding.
 
-    ![](ex1/images/sb4.png)
+    ![](images/sb4.png)
 
 5. Click on **Fiori elements App Preview** to preview your application in the browser.
 
-   ![](ex1/images/sb5.png)
+   ![](images/sb5.png)
 
 </details>
 
