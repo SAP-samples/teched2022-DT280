@@ -111,11 +111,11 @@ Activate and publish your service binding.
  
 1.	Right-click your service binding **`ZRAP400_UI_ORDERS_XXX`** and select **Activate**.
  
-    ![Activate](../../images/checkresults1.png)
+    ![Activate](images/checkresults1.png)
  
 2.	Click **Publish** to publish your service binding.
 
-    ![Publish](../../images/Checkresults2.png)
+    ![Publish](images/Checkresults2.png)
 
 </details>
  
@@ -129,19 +129,19 @@ Run the Fiori elements app preview.
   
 1.	Select the entity **`online_shop`** in your service binding and click **Preview** to start the Fiori elements app preview.
     
-    ![Open fiori elements preview](../../images/Checkresults3.png)
+    ![Open fiori elements preview](images/Checkresults3.png)
 
 2.	Click **Create** to create a new entry.
     
-    ![click Create](../../images/checkresults4.png)
+    ![click Create](images/checkresults4.png)
   
 3.	Enter an **id** and **date**, and click **Create**.
     
-    ![click create](../../images/cr5.png)
+    ![click create](images/cr5.png)
     
 4.	Check the result.
     
-    ![Check results](../../images/cr6.png)
+    ![Check results](images/cr6.png)
 
 </details>
 
@@ -154,38 +154,38 @@ You can now check the purchase requisition.
  
 1.	In the **Project Explorer**, select your system, and right-click on **Properties**.
 
-    ![Properties](../../images/cr7.png)
+    ![Properties](images/cr7.png)
 
 2.	Select **ABAP Development**, copy the system URL without _-api_, paste it in a browser, and log in with your ABAP user credentials.
     
-    ![Log in](../../images/cr8.png)
+    ![Log in](images/cr8.png)
   
 3.	Select the **Manage Purchase Requisitions** tile.
     
-    ![Select tile](../../images/cr9.png)
+    ![Select tile](images/cr9.png)
     
 4.	Click **Go**.
 
-    ![Go](../../images/cr10.png)
+    ![Go](images/cr10.png)
     
 5.	Select your purchase requisition.
 
-    ![Select purchase requisition](../../images/cr11.png)
+    ![Select purchase requisition](images/cr11.png)
     
 6.	Check your purchase requisition item and select it.   
     Your group ID should appear here instead of **`XXX`**.
 
-    ![Check](../../images/cr12.png)
+    ![Check](images/cr12.png)
     
 7.	Select **Notes** and check your item text.   
     Your ID should appear here instead of **`XXX`**.  
 
-    ![Notes](../../images/cr13.png)
+    ![Notes](images/cr13.png)
     
 8.	Check your item note.     
     Your ID should appear here instead of **`XXX`**.
  
-    ![Check](../../images/cr14.png)
+    ![Check](images/cr14.png)
 
 </details>
 
