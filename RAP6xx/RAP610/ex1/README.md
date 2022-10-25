@@ -41,7 +41,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     
    > **Do not forget to replace the suffix **`XXX`** with your group ID (e.g. your initials).**
  
-    ![](images/ui3.png)
+    ![](RAP6xx/RAP610/ex1/images/ui3.png)
     
    
 2.	Search for _**database table**_, select the entry, and click **Next >**. 
