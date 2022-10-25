@@ -98,7 +98,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
 3.	Maintain the information provided below and click **Next >**.
 
    - Name: **`ZI_ONLINE_SHOP_XXX`**
-   - Description: **`Data model for online shop`** 
+   - Description: **`Data model for online shop`** _
    
     ![](images/ui9.png)
     
