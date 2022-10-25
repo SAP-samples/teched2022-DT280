@@ -25,7 +25,7 @@ For this step, first create a new database table with fields for purchase requis
 	
 1.	Right-click your package **`Z_PURCHASE_REQ_XXX`** and select **New > Other ABAP Repository Object** from the context menu.
  
-    ![](../../images/ui7.png)
+    ![](ex1/images/ui7.png)
  
 2.	Search for **_Database Table_**, select the entry, and click **Next >**.
     
