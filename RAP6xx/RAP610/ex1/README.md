@@ -39,10 +39,10 @@ When a laptop is ordered, a purchase requisition will be automatically created.
   
 1.	Right-click your package **`Z_PURCHASE_REQ_XXX`** and select **New > Other ABAP Repository Object** from the context menu. 
     
-   > **Do not forget to replace the suffix **`XXX`** with your group ID (e.g. your initials).**
+   > **Do not forget to replace the suffix **`XXX`** with your group ID (e.g. your initials).**_
  
-    ![](images/ui2.png) 
-    
+ ![](images/ui3.png)
+        
    
 2.	Search for _**database table**_, select the entry, and click **Next >**. 
  
