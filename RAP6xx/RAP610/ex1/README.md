@@ -41,7 +41,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     
    > **Do not forget to replace the suffix **`XXX`** with your group ID (e.g. your initials).**
  
-    ![](https://github.com/SAP-samples/teched2022-DT280/blob/fc16968a2e4a3195a3ec113516932eeac1e6292b/RAP6xx/RAP610/ex1/images/ui3.png) 
+    ![](images/ui2.png) 
     
    
 2.	Search for _**database table**_, select the entry, and click **Next >**. 
