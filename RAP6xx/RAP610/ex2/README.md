@@ -29,18 +29,18 @@ For this step, first create a new database table with fields for purchase requis
  
 2.	Search for **_Database Table_**, select the entry, and click **Next >**.
     
-    ![](../../images/ui8.png)
+    ![](images/ui8.png)
  
 3. Maintain the information provided below and click **Next >**.
 
     -	Name: **`ZSHOP_AS_XXX`**
     -	Description: _**`Database table for additional save`**_
 
-    ![](../../images/ui9.png)
+    ![](images/ui9.png)
  
 4.	Select your transport request and click **Finish**.
     
-    ![](../../images/ui10.png)
+    ![](images/ui10.png)
  
 5.	Replace your default source code with following code snippet:
 
@@ -81,7 +81,7 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
 
 3. Select your transport request and click **Finish**.
     
-    ![](../../images/as.png)
+    ![](images/as.png)
 
 4. Add the assosiation **`_purchase_req`** to CDS view entity **`ZI_SHOP_AS_XXX`** in the BO view **`ZI_ONLINE_SHOP_XXX`**.
 
@@ -91,7 +91,7 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
 
 5. Add the assosiation **`_purchasereq`** in the field list.
 
-    ![](../../images/Exercise2.2_addnlsave.jpg)
+    ![](images/Exercise2.2_addnlsave.jpg)
      
     Your CDS view entity **`ZI_ONLINE_SHOP_XXX`** should look like the following
      
@@ -122,7 +122,7 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
 
     Your global class should look like shown below:
     
-    ![](../../images/projection.png)
+    ![](images/projection.png)
 
     Code snippet **`ZC_ONLINE_SHOP_XXX`**
 
@@ -179,15 +179,15 @@ Now, you can create and enhance business implementation logic with code snippets
 
     Double-click on Create behavior implementation class **`zbp_i_online_shop_xxx`** to create your implementation class. 
 
-    ![](../../images/ui24.png)
+    ![](images/ui24.png)
 
 2. Create new implementation class and click **Next >**. 
     
-    ![](../../images/ui25.png)
+    ![](images/ui25.png)
 
 3. Select a transport request and click **Finish**.
 	 
-    ![](../../images/ui26.png)
+    ![](images/ui26.png)
 
 4. In your global class, add the follwing code snippet :
 
