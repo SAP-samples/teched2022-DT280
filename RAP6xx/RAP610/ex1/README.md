@@ -27,7 +27,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
 
     - Description: _**`Developer Extensibility with RAP Facades (<your_group_ID>)`**_
    
-    ![](ex1/images/ui2.png)
+    ![](/images/ui2.png)
   
 </details>
 
