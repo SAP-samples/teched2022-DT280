@@ -100,7 +100,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    - Name: **`ZI_ONLINE_SHOP_XXX`**
    - Description: **`Data model for online shop`** .
    
-    ![](images/ui9.png)
+    ![](images/ui9.jpg)
     
 4. Select your transport request and click **Finish**.
 
