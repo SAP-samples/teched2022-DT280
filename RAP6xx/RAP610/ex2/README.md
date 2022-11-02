@@ -86,7 +86,7 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
 4. Add the assosiation **`_purchase_req`** to CDS view entity **`ZI_SHOP_AS_XXX`** in the BO view **`ZI_ONLINE_SHOP_XXX`**.
 
     ```ABAP
-     association [1..1] to ZSHOP_I_AS_HB            as _purchase_req      on  $projection.Order_Uuid = _purchase_req.OrderUuid
+     association [1..1] to ZSHOP_I_AS_XXX            as _purchase_req      on  $projection.Order_Uuid = _purchase_req.OrderUuid
      ```
 
 5. Add the assosiation **`_purchasereq`** in the field list.
@@ -98,7 +98,7 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
     ```ABAP
     @EndUserText.label: 'Data model for online shop'
     @AccessControl.authorizationCheck: #NOT_REQUIRED
-    define root view entity ZHB_I_ONLINE_STORE as select from zonlineshop_hb
+    define root view entity ZI_ONLINE_SHOP_XXX as select from zonlineshop_hb
     association [1..1] to ZSHOP_I_AS_HB            as _purchase_req      on  $projection.Order_Uuid = _purchase_req.OrderUuid
      {
       key order_uuid as Order_Uuid,
@@ -278,7 +278,7 @@ Now, you can create and enhance business implementation logic with code snippets
          online_shop-Deliverydate  = today + 10.
           APPEND online_shop TO online_shops.
         ENDLOOP.
-        MODIFY ENTITIES OF ZI_ONLINE_SHOP_xxx IN LOCAL MODE
+        MODIFY ENTITIES OF ZI_ONLINE_SHOP_XXX IN LOCAL MODE
        ENTITY ZI_ONLINE_SHOP_xxx UPDATE SET FIELDS WITH online_shops
        MAPPED   DATA(ls_mapped_modify)
        FAILED   DATA(lt_failed_modify)
@@ -286,7 +286,7 @@ Now, you can create and enhance business implementation logic with code snippets
 
 
         IF lt_failed_modify IS INITIAL.
-              MODIFY ENTITIES OF ZI_ONLINE_SHOP_xxx IN LOCAL MODE
+              MODIFY ENTITIES OF ZI_ONLINE_SHOP_XXX IN LOCAL MODE
           ENTITY Online_Shop EXECUTE create_pr FROM CORRESPONDING #( keys )
           FAILED DATA(lt_pr_failed)
           REPORTED DATA(lt_pr_reported).
