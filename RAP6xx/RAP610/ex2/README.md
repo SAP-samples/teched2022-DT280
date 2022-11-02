@@ -91,7 +91,7 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
 
 5. Add the assosiation **`_purchasereq`** in the field list.
 
-    ![](images/Exercise2.2_addnlsave.jpg)
+    ![](images/addnsave.JPG)
      
     Your CDS view entity **`ZI_ONLINE_SHOP_XXX`** should look like the following
      
