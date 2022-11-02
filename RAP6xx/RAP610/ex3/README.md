@@ -1,6 +1,6 @@
 # Exercise 3: Create a Developer Extension using a PaaS API
 
-In the previous exercise, you've implemented the enhanced business logic for your RAP BO **`ZRAP_C_SHOP_XXX`** (see **[Exercise 2](../ex2)**).
+In the previous exercise, you've implemented the enhanced business logic for your RAP BO **`ZI_C_ONLINE_SHOP_XXX`** (see **[Exercise 2](../ex2)**).
 
 The created RAP BO **`ZRAP_C_SHOP_XXX`** can be used to order an item. For example, a laptop can be ordered with this application and the order data can be persisted.
 
@@ -15,7 +15,7 @@ This internal action will trigger the PaaS API **`I_PurchaserequisitionTP`**.
 <details>
   <summary>Click to expand!</summary>
 
-1. In the behavior projection  **`ZRAP_C_SHOP_XXX`**, right-click on the internal action **`create_pr`**. 
+1. In the behavior projection  **`ZI_C_ONLINE_SHOP_XXX`**, right-click on the internal action **`create_pr`**. 
     
     This will show a popup to create a implementation for the **`create_pr`** in the behavior implementation class.
     
@@ -109,7 +109,7 @@ Activate and publish your service binding.
 <details>
   <summary>Click to expand!</summary>
  
-1.	Right-click your service binding **`ZRAP400_UI_ORDERS_XXX`** and select **Activate**.
+1.	Right-click your service binding **`ZSB_SHOP_XXX`** and select **Activate**.
  
     ![Activate](images/checkresults1.png)
  
