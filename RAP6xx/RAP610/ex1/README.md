@@ -193,17 +193,17 @@ When a laptop is ordered, a purchase requisition will be automatically created.
       
 1.	Right-click your data definition **`ZI_ONLINE_SHOP_XXX`** and select **New Behavior Definition** from the context menu.
  
-   ![](images/ui14.png)
+   ![](images/ui18.png)
  
 2.	Maintain a description and click **Next >**.
 
      - Description: _**`Behavior for ZI_ONLINE_SHOP_XXX`**_
      
-     ![](images/ui15.png)
+     ![](images/ui19.png)
 
 3.	Select your transport request and click **Finish**.
  
-    ![](images/ui16.png)
+    ![](images/ui20.png)
  
 4.	Replace the default source code with following code snippet:
 
@@ -240,15 +240,15 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    
 1.	Right-click your projection view **`ZC_ONLINE_SHOP_XXX`** and select **New Behavior Definition** from the context menu.
  
-    ![](images/ui17.png)
+    ![](images/ui21.png)
  
 2.	Click **Next >**.
 
-   ![](images/ui18.png)
+   ![](images/ui22.png)
  
 3.	Select your transport request and click **Finish**.
   
-     ![](images/ui19.png)
+     ![](images/ui23.png)
  
 4.	Replace the default source code with following with code snippet:
 
