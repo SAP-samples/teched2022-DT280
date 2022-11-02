@@ -131,7 +131,7 @@ When a laptop is ordered, a purchase requisition will be automatically created.
    
 1.	Right-click **Data Definitions** and select **New Data Definition** from the context menu.
   
-    ![](images/ui11.png)
+    ![](images/ui15.png)
  
 2.	Maintain the information provided below and click **Next >**.
 
@@ -139,11 +139,11 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     -	Description: **_Projection view for online shop_**
     -	Referenced Object: **`ZI_ONLINE_SHOP_XXX`**
     
-   ![](images/ui12.png)
+   ![](images/ui16.png)
  
 3. Select your transport request and click **Finish**.
    
-   ![](images/ui13.png)
+   ![](images/ui17.png)
 
 4.	Replace the default source code with following code snippet:
 
