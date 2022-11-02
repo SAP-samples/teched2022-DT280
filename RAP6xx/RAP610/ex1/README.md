@@ -139,11 +139,11 @@ When a laptop is ordered, a purchase requisition will be automatically created.
     -	Description: **_Projection view for online shop_**
     -	Referenced Object: **`ZI_ONLINE_SHOP_XXX`**
     
-   ![](images/ui12.png)
+   ![](images/ui16.png)
  
 3. Select your transport request and click **Finish**.
    
-   ![](images/ui13.png)
+   ![](images/ui17.png)
 
 4.	Replace the default source code with following code snippet:
 
