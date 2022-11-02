@@ -99,7 +99,7 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
     @EndUserText.label: 'Data model for online shop'
     @AccessControl.authorizationCheck: #NOT_REQUIRED
     define root view entity ZI_ONLINE_SHOP_XXX as select from zonlineshop_hb
-    association [1..1] to ZSHOP_I_AS_HB            as _purchase_req      on  $projection.Order_Uuid = _purchase_req.OrderUuid
+    association [1..1] to ZSHOP_I_AS_XXX            as _purchase_req      on  $projection.Order_Uuid = _purchase_req.OrderUuid
      {
       key order_uuid as Order_Uuid,
       order_id as Order_Id,
@@ -134,8 +134,8 @@ You will now expose the purchase requisition field from database table **`ZSHOP_
                          typeNamePlural: 'Online Shop',
                          title: { type: #STANDARD, label: 'Online Shop', value: 'order_id' } },
            presentationVariant: [{ sortOrder: [{ by: 'Creationdate',direction: #DESC }] }] }
-     define root view entity ZHB_C_ONLINE_STORE provider contract transactional_query
-      as projection on ZHB_I_ONLINE_STORE
+     define root view entity ZC_ONLINE_SHOP_XXX provider contract transactional_query
+      as projection on ZI_ONLINE_SHOP_XXX
      {
 
          @UI.facet: [          { id:                    'Orders',
@@ -211,12 +211,12 @@ Now, you can create and enhance business implementation logic with code snippets
 5. On the **Local Types** tab, replace your source code with following code:**
 
     ```ABAP
-     CLASS lsc_zhb_i_online_shop_act DEFINITION INHERITING FROM cl_abap_behavior_saver.
+     CLASS lsc_zi_online_shop_act DEFINITION INHERITING FROM cl_abap_behavior_saver.
       PROTECTED SECTION.
         METHODS save_modified REDEFINITION.
      ENDCLASS.
 
-     CLASS lsc_zhb_i_online_shop_act IMPLEMENTATION.
+     CLASS lsc_zi_online_shop_act IMPLEMENTATION.
 
      METHOD save_modified.
         DATA : lt_online_shop_as TYPE STANDARD TABLE OF Zshop_AS_xxx,
@@ -236,7 +236,7 @@ Now, you can create and enhance business implementation logic with code snippets
       ENDMETHOD.
 
     ENDCLASS.
-     CLASS lhc_zbp_i_online_shop_xxx  DEFINITION INHERITING FROM cl_abap_behavior_handler. 
+     CLASS lhc_zi_online_shop_xxx  DEFINITION INHERITING FROM cl_abap_behavior_handler. 
       PRIVATE SECTION.
          METHODS get_instance_authorizations FOR INSTANCE AUTHORIZATION
          IMPORTING keys REQUEST requested_authorizations FOR  online_shop RESULT result.
@@ -249,7 +249,7 @@ Now, you can create and enhance business implementation logic with code snippets
 
      ENDCLASS.
 
-     CLASS lhc_zbp_i_online_shop_xxx  IMPLEMENTATION.
+     CLASS lhc_zi_online_shop_xxx  IMPLEMENTATION.
 
      METHOD get_instance_authorizations.
       ENDMETHOD.
