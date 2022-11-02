@@ -79,7 +79,7 @@ You will create your own transactional Fiori elements app with the ABAP RESTful 
 
 | Exercises |  
 | ------------- | 
-| [Get started](exercises/ex0/README.md) | 
+| [Get started](ex0/README.md) | 
 | [Exercise 1: Create Your Own Transactional UI Service](ex1/README.md) | 
 | [Exercise 2: Implement the Business Logic of Your Business Object](ex2/README.md) | 
 | [Exercise 3: Create a Developer Extension using a PaaS API](ex3/README.md) | 
