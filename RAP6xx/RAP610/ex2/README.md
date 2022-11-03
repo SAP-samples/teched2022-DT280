@@ -86,7 +86,7 @@ You will now expose the purchase requisition field from CDS view **`ZI_SHOP_AS_X
 4. Add the assosiation **`_purchase_req`** to CDS view entity **`ZI_SHOP_AS_XXX`** in the BO view **`ZI_ONLINE_SHOP_XXX`**.
 
     ```ABAP
-     association [1..1] to ZSHOP_I_AS_XXX            as _purchase_req      on  $projection.Order_Uuid = _purchase_req.OrderUuid
+     association [1..1] to ZI_SHOP_AS_XXX            as _purchase_req      on  $projection.Order_Uuid = _purchase_req.Order_Uuid
      ```
 
 5. Add the assosiation **`_purchasereq`** in the field list.
@@ -99,7 +99,7 @@ You will now expose the purchase requisition field from CDS view **`ZI_SHOP_AS_X
     @EndUserText.label: 'Data model for online shop'
     @AccessControl.authorizationCheck: #NOT_REQUIRED
     define root view entity ZI_ONLINE_SHOP_XXX as select from zonlineshop_hb
-    association [1..1] to CDS view           as _purchase_req      on  $projection.Order_Uuid = _purchase_req.Order_Uuid
+    association [1..1] to ZI_SHOP_AS_XXX           as _purchase_req      on  $projection.Order_Uuid = _purchase_req.Order_Uuid
      {
       key order_uuid as Order_Uuid,
       order_id as Order_Id,
