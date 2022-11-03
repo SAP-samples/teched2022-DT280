@@ -66,7 +66,7 @@ For this step, first create a new database table with fields for purchase requis
 ## Step 2.2: Enhance the CDS View Entity `ZI_ONLINE_SHOP_XXX`
 [^Top of page](#)
 
-You will now expose the purchase requisition field from database table **`ZSHOP_AS_XXX`** in the CDS view entity **`ZI_ONLINE_SHOP_XXX`**
+You will now expose the purchase requisition field from CDS view **`ZI_SHOP_AS_XXX`** in the CDS view entity **`ZI_ONLINE_SHOP_XXX`**
 
 <details>
   <summary>Click to expand!</summary>
