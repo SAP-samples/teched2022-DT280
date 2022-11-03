@@ -1,8 +1,8 @@
 # Exercise 3: Create a Developer Extension using a PaaS API
 
-In the previous exercise, you've implemented the enhanced business logic for your RAP BO **`ZI_C_ONLINE_SHOP_XXX`** (see **[Exercise 2](../ex2)**).
+In the previous exercise, you've implemented the enhanced business logic for your RAP BO **`ZC_ONLINE_SHOP_XXX`** (see **[Exercise 2](../ex2)**).
 
-The created RAP BO **`ZRAP_C_SHOP_XXX`** can be used to order an item. For example, a laptop can be ordered with this application and the order data can be persisted.
+The created RAP BO **`ZC_ONLINE_SHOP_XXX`** can be used to order an item. For example, a laptop can be ordered with this application and the order data can be persisted.
 
 In the present exercise, you will use the released RAP facade **`I_PurchaserequisitionTP`** to create a developer extension and check the result.
 
@@ -15,7 +15,7 @@ This internal action will trigger the PaaS API **`I_PurchaserequisitionTP`**.
 <details>
   <summary>Click to expand!</summary>
 
-1. In the behavior projection  **`ZI_C_ONLINE_SHOP_XXX`**, right-click on the internal action **`create_pr`**. 
+1. In the behavior projection  **`ZI_ONLINE_SHOP_XXX`**, right-click on the internal action **`create_pr`**. 
     
     This will show a popup to create a implementation for the **`create_pr`** in the behavior implementation class.
     
