@@ -81,7 +81,7 @@ You will now expose the purchase requisition field from CDS view **`ZI_SHOP_AS_X
 
 3. Select your transport request and click **Finish**.
     
-    ![](images/as.png)
+    ![](images/as.jpg)
 
 4. Add the assosiation **`_purchase_req`** to CDS view entity **`ZI_SHOP_AS_XXX`** in the BO view **`ZI_ONLINE_SHOP_XXX`**.
 
