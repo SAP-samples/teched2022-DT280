@@ -124,7 +124,7 @@ You will now expose the purchase requisition field from CDS view **`ZI_SHOP_AS_X
 
     Your global class should look like shown below:
     
-    ![](images/projection.png)
+    ![](images/projection.PNG)
 
     Code snippet **`ZC_ONLINE_SHOP_XXX`**
 
