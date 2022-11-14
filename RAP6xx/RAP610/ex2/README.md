@@ -101,7 +101,7 @@ You will now expose the purchase requisition field from CDS view **`ZI_SHOP_AS_X
     @EndUserText.label: 'Data model for online shop'
     @AccessControl.authorizationCheck: #NOT_REQUIRED
     define root view entity ZI_ONLINE_SHOP_XXX as select from zonlineshop_xxx
-    association [1..1] to ZI_SHOP_AS_XXX           as _purchase_req      on  $projection.Order_Uuid = _purchase_req.Order_Uuid
+    association [1..1] to ZI_SHOP_AS_XXX           as _purchase_req      on  $projection.Order_Uuid = _purchase_req.OrderUuid
      {
       key order_uuid as Order_Uuid,
       order_id as Order_Id,
