@@ -79,7 +79,7 @@ You will now expose the purchase requisition field from CDS view **`ZI_SHOP_AS_X
     - Name: **`ZI_SHOP_AS_XXX`** 
     - Description: _**`Data model for online shop`**_ .
     - click **Next** and select **Define view entity**.
-
+     ![](images/adlnsaveview.png)
 3. Select your transport request and click **Finish**.
     
     ![](images/as.jpg)
