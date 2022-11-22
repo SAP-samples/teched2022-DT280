@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-DT280)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-DT280)
+
 # DT280 - Develop Cloud-Ready Extensions with SAP S/4HANA Cloud, ABAP Environment
 
 ## Description
