@@ -7,5 +7,5 @@ You are now able to see the behavior definition folder of the released object i_
 ![Navigate to documentation](https://github.com/SAP-samples/teched2022-DT280/blob/954a5e2abf208b6d7cf6df02156b46ef93a2fd6d/RAP6xx/RAP610/ex2/images/documentation6.png)
 - **HINT**: You can also check the API State of released object and see its visibility by selecting the properties.
 - 2.	Now you can see the documentation.   
-![Check documentation](images/documentation7.png)
+![Check documentation](https://github.com/SAP-samples/teched2022-DT280/blob/954a5e2abf208b6d7cf6df02156b46ef93a2fd6d/RAP6xx/RAP610/ex2/images/documentation7.png)
 - 3. Here, you see the implemented behavior for the purchase requisition BO. The create, update, delete operations are enabled. This means you can create/update/delete a new purchase requisition using RAP.
